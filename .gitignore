@@ -122,3 +122,4 @@ learning.db
 **/learning/benchmarks/
 **/teacher_traces/
 *.session.json
+release/
