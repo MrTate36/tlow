@@ -104,7 +104,7 @@ jobs:
         include:
           - platform: ubuntu-22.04
             args: ''
-          - platform: macos-14
+          - platform: macos-15
             args: '--target universal-apple-darwin'
           - platform: windows-latest
             args: ''
@@ -129,7 +129,7 @@ jobs:
       - name: Install Rust stable
         uses: dtolnay/rust-toolchain@stable
         with:
-          targets: ${{ matrix.platform == 'macos-14' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+          targets: ${{ matrix.platform == 'macos-15' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
 
       - name: Rust cache
         uses: swatinem/rust-cache@v2
@@ -149,7 +149,7 @@ jobs:
         shell: bash
         run: |
           cd frontend/src-tauri/scripts && chmod +x download-ollama.sh
-          if [[ "${{ matrix.platform }}" == "macos-14" ]]; then
+          if [[ "${{ matrix.platform }}" == "macos-15" ]]; then
             ./download-ollama.sh aarch64-apple-darwin
             ./download-ollama.sh x86_64-apple-darwin
           else
