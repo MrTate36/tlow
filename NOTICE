@@ -1,0 +1,10 @@
+TLOW
+Copyright 2026 TLOW contributors
+
+This product is a modified version of OpenJarvis
+(https://github.com/open-jarvis/OpenJarvis, release desktop-v1.0.2),
+Copyright the OpenJarvis contributors, licensed under the Apache License 2.0.
+
+Modifications: product renamed from OpenJarvis/Jarvis to TLOW across source,
+package names, CLI, desktop app and documentation; default analytics endpoint
+removed; desktop auto-updater disabled pending a new signing key.

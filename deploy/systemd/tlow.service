@@ -1,0 +1,15 @@
+[Unit]
+Description=TLOW API Server
+After=network.target
+
+[Service]
+Type=simple
+User=tlow
+WorkingDirectory=/opt/tlow
+ExecStart=/opt/tlow/.venv/bin/tlow serve --host 0.0.0.0 --port 8000
+Restart=on-failure
+RestartSec=5
+Environment=HOME=/opt/tlow
+
+[Install]
+WantedBy=multi-user.target

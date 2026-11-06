@@ -1,0 +1,32 @@
+[package]
+name = "tlow-python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tlow_rust"
+crate-type = ["cdylib"]
+
+[dependencies]
+tlow-core = { path = "../tlow-core" }
+tlow-engine = { path = "../tlow-engine" }
+tlow-security = { path = "../tlow-security" }
+tlow-tools = { path = "../tlow-tools" }
+tlow-agents = { path = "../tlow-agents" }
+tlow-traces = { path = "../tlow-traces" }
+tlow-telemetry = { path = "../tlow-telemetry" }
+tlow-learning = { path = "../tlow-learning" }
+tlow-mcp = { path = "../tlow-mcp" }
+tlow-sessions = { path = "../tlow-sessions" }
+tlow-workflow = { path = "../tlow-workflow" }
+tlow-skills = { path = "../tlow-skills" }
+tlow-recipes = { path = "../tlow-recipes" }
+tlow-templates = { path = "../tlow-templates" }
+tlow-a2a = { path = "../tlow-a2a" }
+tlow-scheduler = { path = "../tlow-scheduler" }
+pyo3 = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+once_cell = { workspace = true }
+parking_lot = { workspace = true }
