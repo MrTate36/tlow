@@ -61,7 +61,7 @@
       "active": false,
       "pubkey": "",
       "endpoints": [
-        "https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/latest.json"
+        "https://github.com/mrtate36/TLOW/releases/download/desktop-latest/latest.json"
       ]
     },
     "deep-link": {

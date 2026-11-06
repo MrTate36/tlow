@@ -14,7 +14,7 @@ ollama pull qwen3.5:4b
 ### 2. Install and initialize TLOW
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync
 tlow init --preset chat-simple
@@ -113,7 +113,7 @@ The server is OpenAI-compatible, so any client that works with the OpenAI API ca
 ## Using the Desktop App
 
 1. Start the backend: `tlow serve` (or `./scripts/quickstart.sh`)
-2. Download and open the desktop app from the [releases page](https://github.com/tlow-ai/TLOW/releases)
+2. Download and open the desktop app from the [releases page](https://github.com/mrtate36/TLOW/releases)
 3. The app connects to `http://localhost:8000` automatically
 
 ## Switching Models

@@ -15,7 +15,7 @@ Then open the Ubuntu (or Debian) shell that gets installed.
 ## Install TLOW
 
 ```bash
-curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 ```
 
 About 3 minutes. Type `tlow` to start.

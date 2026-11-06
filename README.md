@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://scalingintelligence.stanford.edu/blogs/openjarvis/"><img src="https://img.shields.io/badge/project-TLOW-blue" alt="Project"></a>
-    <a href="https://tlow-ai.github.io/TLOW/"><img src="https://img.shields.io/badge/docs-mkdocs-blue" alt="Docs"></a>
+    <a href="https://mrtate36.github.io/TLOW/"><img src="https://img.shields.io/badge/docs-mkdocs-blue" alt="Docs"></a>
     <img src="https://img.shields.io/badge/python-%3E%3D3.10-blue" alt="Python">
     <img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License">
     <a href="https://discord.gg/YZZRxCAhmm"><img src="https://img.shields.io/badge/discord-join-7289da?logo=discord&logoColor=white" alt="Discord"></a>
@@ -15,13 +15,13 @@
 
 ---
 
-> **[Documentation](https://tlow-ai.github.io/TLOW/)**
+> **[Documentation](https://mrtate36.github.io/TLOW/)**
 >
 > **[Project Site](https://scalingintelligence.stanford.edu/blogs/openjarvis/)**
 >
-> **[Leaderboard](https://tlow-ai.github.io/TLOW/leaderboard/)**
+> **[Leaderboard](https://mrtate36.github.io/TLOW/leaderboard/)**
 >
-> **[Roadmap](https://tlow-ai.github.io/TLOW/development/roadmap/)**
+> **[Roadmap](https://mrtate36.github.io/TLOW/development/roadmap/)**
 
 ## Why TLOW?
 
@@ -34,7 +34,7 @@ TLOW is that stack. It is a framework for local-first personal AI, built around 
 **macOS / Linux:**
 
 ```bash
-curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 ```
 
 The installer handles everything for you — including [uv](https://docs.astral.sh/uv/), the Python venv, Ollama, and a small starter model. You don't need to install anything first.
@@ -45,8 +45,8 @@ The installer handles everything for you — including [uv](https://docs.astral.
   ```powershell
   wsl --install -d Ubuntu-24.04
   ```
-  Open the Ubuntu shell that gets installed, then follow [WSL2 install instructions](https://tlow-ai.github.io/TLOW/getting-started/wsl2/).
-- **Desktop app** — download the `.exe` from the [Releases page](https://github.com/tlow-ai/TLOW/releases) for the GUI experience, no terminal required. **Prerequisite:** the desktop app expects [uv](https://docs.astral.sh/uv/) to be installed already — if it isn't, install it first in PowerShell, then launch the app:
+  Open the Ubuntu shell that gets installed, then follow [WSL2 install instructions](https://mrtate36.github.io/TLOW/getting-started/wsl2/).
+- **Desktop app** — download the `.exe` from the [Releases page](https://github.com/mrtate36/TLOW/releases) for the GUI experience, no terminal required. **Prerequisite:** the desktop app expects [uv](https://docs.astral.sh/uv/) to be installed already — if it isn't, install it first in PowerShell, then launch the app:
   ```powershell
   powershell -ExecutionPolicy Bypass -c "irm https://astral.sh/uv/install.ps1 | iex"
   ```
@@ -66,7 +66,7 @@ The Rust extension and bigger models continue downloading in the background whil
 ## Quick Start
 
 ```bash
-curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 tlow
 ```
 
@@ -125,7 +125,7 @@ tlow bench skills --max-samples 5 --seeds 42
 
 Import from [Hermes Agent](https://github.com/NousResearch/hermes-agent) (~150 skills), [OpenClaw](https://github.com/openclaw/skills) (~13,700 community skills), or any GitHub repo. Skills follow the [agentskills.io](https://agentskills.io/specification) open standard.
 
-See the [Skills User Guide](https://tlow-ai.github.io/TLOW/user-guide/skills/) and [Skills Tutorial](https://tlow-ai.github.io/TLOW/tutorials/skills-workflow/) for details.
+See the [Skills User Guide](https://mrtate36.github.io/TLOW/user-guide/skills/) and [Skills Tutorial](https://mrtate36.github.io/TLOW/tutorials/skills-workflow/) for details.
 
 ### Built-in Agents
 
@@ -142,16 +142,16 @@ TLOW ships with eight built-in agents across three execution modes (on-demand, s
 | `native_openhands` | On-demand | CodeAct — generates and executes Python code |
 | `simple` | On-demand | Single-turn chat, no tools |
 
-See the [User Guide](https://tlow-ai.github.io/TLOW/user-guide/morning-digest/) and [Tutorials](https://tlow-ai.github.io/TLOW/tutorials/) for detailed setup instructions.
+See the [User Guide](https://mrtate36.github.io/TLOW/user-guide/morning-digest/) and [Tutorials](https://mrtate36.github.io/TLOW/tutorials/) for detailed setup instructions.
 
-Full documentation — including Docker deployment, cloud engines, development setup, and tutorials — at **[tlow-ai.github.io/TLOW](https://tlow-ai.github.io/TLOW/)**.
+Full documentation — including Docker deployment, cloud engines, development setup, and tutorials — at **[mrtate36.github.io/TLOW](https://mrtate36.github.io/TLOW/)**.
 
 ## Community
 
-- **GitHub:** [github.com/tlow-ai/TLOW](https://github.com/tlow-ai/TLOW)
+- **GitHub:** [github.com/mrtate36/TLOW](https://github.com/mrtate36/TLOW)
 - **Discord:** [discord.gg/YZZRxCAhmm](https://discord.gg/YZZRxCAhmm)
 - **X / Twitter:** [@TLOWAI](https://x.com/TLOWAI)
-- **Docs:** [tlow-ai.github.io/TLOW](https://tlow-ai.github.io/TLOW/)
+- **Docs:** [mrtate36.github.io/TLOW](https://mrtate36.github.io/TLOW/)
 
 ## Contributing
 
@@ -160,14 +160,14 @@ We welcome contributions! See the [Contributing Guide](CONTRIBUTING.md) for ince
 Quick start for contributors:
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra dev
 uv run pre-commit install
 uv run pytest tests/ -v
 ```
 
-Browse the [Roadmap](https://tlow-ai.github.io/TLOW/development/roadmap/) for areas where help is needed. Comment **"take"** on any issue to get auto-assigned.
+Browse the [Roadmap](https://mrtate36.github.io/TLOW/development/roadmap/) for areas where help is needed. Comment **"take"** on any issue to get auto-assigned.
 
 ## About
 

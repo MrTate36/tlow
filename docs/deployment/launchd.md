@@ -7,7 +7,7 @@ TLOW includes a launchd property list (plist) for running the API server as a ba
 Before installing the service, ensure that TLOW is installed and the `tlow` command is available at `/usr/local/bin/tlow`. If you installed via `uv` or `pip` with a different prefix, adjust the path in the plist accordingly.
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git && cd TLOW && uv sync --extra server
+git clone https://github.com/mrtate36/TLOW.git && cd TLOW && uv sync --extra server
 which tlow  # Verify the installation path
 ```
 

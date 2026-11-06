@@ -7,7 +7,7 @@ An orchestrator agent with code execution, file I/O, and shell access. It can wr
 ### 1. Install and initialize
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra dev
 tlow init --preset code-assistant

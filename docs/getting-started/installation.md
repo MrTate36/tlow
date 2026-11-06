@@ -19,7 +19,7 @@ your machine and the frontend connects via `localhost`.
 ### One-command setup
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 ./scripts/quickstart.sh
 ```
@@ -39,7 +39,7 @@ If you prefer to run each step yourself:
 === "Step 1: Clone and install"
 
     ```bash
-    git clone https://github.com/tlow-ai/TLOW.git
+    git clone https://github.com/mrtate36/TLOW.git
     cd TLOW
     uv sync --extra server
     uv run maturin develop -m rust/crates/tlow-python/Cargo.toml
@@ -85,7 +85,7 @@ processing happens on your local machine — the app connects to the backend you
 **Step 1.** Start the backend (same as Browser App):
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 ./scripts/quickstart.sh
 ```
@@ -94,11 +94,11 @@ cd TLOW
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [:material-download: **TLOW.dmg**](https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/TLOW_0.1.0_aarch64.dmg) |
-| Windows (64-bit) | [:material-download: **TLOW-setup.exe**](https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/TLOW_0.1.0_x64-setup.exe) |
-| Linux (DEB) | [:material-download: **TLOW.deb**](https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/TLOW_0.1.0_amd64.deb) |
-| Linux (RPM) | [:material-download: **TLOW.rpm**](https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/TLOW-0.1.0-1.x86_64.rpm) |
-| Linux (AppImage) | [:material-download: **TLOW.AppImage**](https://github.com/tlow-ai/TLOW/releases/download/desktop-latest/TLOW_0.1.0_amd64.AppImage) |
+| macOS (Apple Silicon) | [:material-download: **TLOW.dmg**](https://github.com/mrtate36/TLOW/releases/download/desktop-latest/TLOW_0.1.0_aarch64.dmg) |
+| Windows (64-bit) | [:material-download: **TLOW-setup.exe**](https://github.com/mrtate36/TLOW/releases/download/desktop-latest/TLOW_0.1.0_x64-setup.exe) |
+| Linux (DEB) | [:material-download: **TLOW.deb**](https://github.com/mrtate36/TLOW/releases/download/desktop-latest/TLOW_0.1.0_amd64.deb) |
+| Linux (RPM) | [:material-download: **TLOW.rpm**](https://github.com/mrtate36/TLOW/releases/download/desktop-latest/TLOW-0.1.0-1.x86_64.rpm) |
+| Linux (AppImage) | [:material-download: **TLOW.AppImage**](https://github.com/mrtate36/TLOW/releases/download/desktop-latest/TLOW_0.1.0_amd64.AppImage) |
 
 The app connects to `http://localhost:8000` automatically.
 
@@ -110,12 +110,12 @@ The app connects to `http://localhost:8000` automatically.
     This is normal for open-source apps distributed outside the App Store.
 
 !!! tip "All releases"
-    Browse all versions on the [GitHub Releases](https://github.com/tlow-ai/TLOW/releases) page.
+    Browse all versions on the [GitHub Releases](https://github.com/mrtate36/TLOW/releases) page.
 
 ### Build from source
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW/desktop
 npm install
 npm run tauri build
@@ -133,7 +133,7 @@ programmatically. Every feature is accessible from the terminal.
 ### Install
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync
 uv run maturin develop -m rust/crates/tlow-python/Cargo.toml
@@ -177,7 +177,7 @@ For programmatic access, the `TLOW` class provides a high-level sync API.
 ### Install
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync
 uv run maturin develop -m rust/crates/tlow-python/Cargo.toml

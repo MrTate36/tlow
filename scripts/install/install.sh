@@ -2,7 +2,7 @@
 # install.sh — TLOW curl-pipe-bash installer.
 #
 # Usage:
-#   curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+#   curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 #
 # Flags (only used in tests / power users):
 #   --no-bg-orchestrator   Skip the detached background orchestrator
@@ -11,7 +11,7 @@
 #
 # Environment overrides:
 #   TLOW_HOME        Install dir (default: $HOME/.tlow)
-#   TLOW_REPO_URL    git repo URL (default: https://github.com/tlow-ai/TLOW.git)
+#   TLOW_REPO_URL    git repo URL (default: https://github.com/mrtate36/TLOW.git)
 #   TLOW_FORCE_WSL   Set 1 to force WSL detection (testing)
 
 set -euo pipefail
@@ -49,13 +49,13 @@ TLOW runs on Windows via WSL2. Two paths:
 
      Open the Ubuntu shell that gets installed, then re-run:
 
-       curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+       curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 
   2. Desktop app — download the .exe from the Releases page:
-     https://github.com/tlow-ai/TLOW/releases
+     https://github.com/mrtate36/TLOW/releases
 
 See the WSL2 install guide for the full walkthrough:
-  https://tlow-ai.github.io/TLOW/getting-started/wsl2/
+  https://mrtate36.github.io/TLOW/getting-started/wsl2/
 EOF
         exit 1
         ;;
@@ -92,7 +92,7 @@ need curl
 
 # ---- env ----
 TLOW_HOME="${TLOW_HOME:-$HOME/.tlow}"
-TLOW_REPO_URL="${TLOW_REPO_URL:-https://github.com/tlow-ai/TLOW.git}"
+TLOW_REPO_URL="${TLOW_REPO_URL:-https://github.com/mrtate36/TLOW.git}"
 SRC_DIR="$TLOW_HOME/src"
 VENV_DIR="$TLOW_HOME/.venv"
 STATE_DIR="$TLOW_HOME/.state"

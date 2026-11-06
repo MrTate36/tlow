@@ -136,7 +136,7 @@ export const SOURCE_CATALOG: ConnectorMeta[] = [
       },
       {
         label: '(Optional) Set the app icon: in the left sidebar click "Basic Information" → scroll to "Display Information" → upload the TLOW logo',
-        url: 'https://github.com/tlow-ai/TLOW/blob/main/assets/tlow-slack-icon.jpg',
+        url: 'https://github.com/mrtate36/TLOW/blob/main/assets/tlow-slack-icon.jpg',
         urlLabel: 'Download icon',
       },
     ],

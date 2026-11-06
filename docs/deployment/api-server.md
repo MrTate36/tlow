@@ -7,7 +7,7 @@ TLOW includes an OpenAI-compatible API server built on FastAPI and uvicorn. It e
 The server requires the `[server]` extra (FastAPI + uvicorn):
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra server
 ```

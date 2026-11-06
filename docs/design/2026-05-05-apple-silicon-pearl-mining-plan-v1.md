@@ -1599,7 +1599,7 @@ Session
 | `maturin build` complains about `tikv-jemallocator` | macOS SDK too old | Update macOS / Xcode |
 
 For anything not on this list, capture `~/.tlow/logs/mining/` and open
-an issue at https://github.com/tlow-ai/TLOW/issues.
+an issue at https://github.com/mrtate36/TLOW/issues.
 
 ## What changes in v2 / v3
 

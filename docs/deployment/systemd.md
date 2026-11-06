@@ -15,7 +15,7 @@ Create the user and installation directory:
 ```bash
 sudo useradd --system --create-home --home-dir /opt/tlow tlow
 sudo -u tlow python3 -m venv /opt/tlow/.venv
-sudo -u tlow git clone https://github.com/tlow-ai/TLOW.git /opt/tlow/TLOW
+sudo -u tlow git clone https://github.com/mrtate36/TLOW.git /opt/tlow/TLOW
 cd /opt/tlow/TLOW && sudo -u tlow uv sync --extra server
 ```
 

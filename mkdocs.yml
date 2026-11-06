@@ -1,9 +1,9 @@
 site_name: TLOW
-site_url: https://tlow-ai.github.io/TLOW/
+site_url: https://mrtate36.github.io/TLOW/
 site_description: Personal AI, On Personal Devices
 site_author: TLOW Contributors
-repo_url: https://github.com/tlow-ai/TLOW
-repo_name: tlow-ai/TLOW
+repo_url: https://github.com/mrtate36/TLOW
+repo_name: mrtate36/TLOW
 edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2026 TLOW Contributors
@@ -140,7 +140,7 @@ extra:
     index_name: ""   # e.g. "tlow"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tlow-ai/TLOW
+      link: https://github.com/mrtate36/TLOW
 
 nav:
   - Home: index.md

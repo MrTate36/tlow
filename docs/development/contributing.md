@@ -18,7 +18,7 @@ contribute code to TLOW.
 ### Clone and Install
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra dev
 ```

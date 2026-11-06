@@ -1,7 +1,7 @@
 # macOS Install
 
 ```bash
-curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 ```
 
 Works on Intel and Apple Silicon. The installer auto-detects your CPU/GPU.

@@ -5,7 +5,7 @@ web_search, and think tools to find and synthesize information from the web.
 
 ## Requirements
 
-- TLOW installed (`git clone https://github.com/tlow-ai/TLOW.git && cd TLOW && uv sync` or `uv sync --extra dev`)
+- TLOW installed (`git clone https://github.com/mrtate36/TLOW.git && cd TLOW && uv sync` or `uv sync --extra dev`)
 - An inference engine running (Ollama, cloud API, vLLM, etc.)
 
 ## Usage

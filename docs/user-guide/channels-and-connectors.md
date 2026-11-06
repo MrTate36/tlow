@@ -298,7 +298,7 @@ We recommend creating **one Slack app** that handles both. The App Manifest belo
 
 8. **(Optional) Set the app icon:**
    - Go to Basic Information → Display Information
-   - Upload the [TLOW icon](https://github.com/tlow-ai/TLOW/blob/main/assets/tlow-slack-icon.jpg)
+   - Upload the [TLOW icon](https://github.com/mrtate36/TLOW/blob/main/assets/tlow-slack-icon.jpg)
 
 ### Required Bot Token Scopes (reference)
 

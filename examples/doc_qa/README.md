@@ -5,7 +5,7 @@ with context-augmented retrieval and citations.
 
 ## Requirements
 
-- TLOW installed (`git clone https://github.com/tlow-ai/TLOW.git && cd TLOW && uv sync` or `uv sync --extra dev`)
+- TLOW installed (`git clone https://github.com/mrtate36/TLOW.git && cd TLOW && uv sync` or `uv sync --extra dev`)
 - An inference engine running (Ollama, cloud API, vLLM, etc.)
 - A memory backend available (SQLite is the built-in default)
 

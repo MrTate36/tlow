@@ -7,7 +7,7 @@ A personalized daily briefing that collects data from your connected services, s
 ### 1. Install and set up TLOW
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra dev
 ```

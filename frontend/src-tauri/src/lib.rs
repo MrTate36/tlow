@@ -617,7 +617,7 @@ async fn boot_backend(backend: SharedBackend, status: SharedStatus) {
                 "clone",
                 "--depth",
                 "1",
-                "https://github.com/tlow-ai/TLOW.git",
+                "https://github.com/mrtate36/TLOW.git",
                 &clone_target,
             ])
             .stdout(std::process::Stdio::null())
@@ -634,7 +634,7 @@ async fn boot_backend(backend: SharedBackend, status: SharedStatus) {
                     let mut s = status.lock().await;
                     s.error = Some(format!(
                         "Failed to download TLOW: {}. \
-                         Clone manually: git clone https://github.com/tlow-ai/TLOW.git {}",
+                         Clone manually: git clone https://github.com/mrtate36/TLOW.git {}",
                         stderr.trim(),
                         clone_target,
                     ));
@@ -644,7 +644,7 @@ async fn boot_backend(backend: SharedBackend, status: SharedStatus) {
                     let mut s = status.lock().await;
                     s.error = Some(format!(
                         "Failed to download TLOW: {}. \
-                         Clone manually: git clone https://github.com/tlow-ai/TLOW.git {}",
+                         Clone manually: git clone https://github.com/mrtate36/TLOW.git {}",
                         e, clone_target,
                     ));
                     return;

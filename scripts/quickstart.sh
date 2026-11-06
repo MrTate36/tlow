@@ -6,7 +6,7 @@ set -euo pipefail
 # the backend API server and frontend, then opens the browser.
 #
 # Usage:
-#   git clone https://github.com/tlow-ai/TLOW.git
+#   git clone https://github.com/mrtate36/TLOW.git
 #   cd TLOW
 #   ./scripts/quickstart.sh
 # ──────────────────────────────────────────────────────────────────────

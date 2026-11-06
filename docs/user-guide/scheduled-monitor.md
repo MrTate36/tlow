@@ -7,7 +7,7 @@ A persistent operative agent that runs on a cron schedule, maintains state acros
 ### 1. Install and initialize
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync --extra dev
 tlow init --preset scheduled-monitor

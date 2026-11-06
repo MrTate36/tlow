@@ -1,6 +1,6 @@
 """Publish the canonical install.sh into the docs site.
 
-Serves the installer at ``https://tlow-ai.github.io/TLOW/install.sh``
+Serves the installer at ``https://mrtate36.github.io/TLOW/install.sh``
 so users have an HTTPS-valid, project-controlled install URL that does not
 depend on the externally-hosted ``tlow.ai`` domain — whose TLS config
 broke and which the project does not control (issue #337).

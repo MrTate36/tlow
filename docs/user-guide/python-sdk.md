@@ -12,7 +12,7 @@ The TLOW Python SDK provides a high-level interface for interacting with local i
 ## Installation
 
 ```bash
-git clone https://github.com/tlow-ai/TLOW.git
+git clone https://github.com/mrtate36/TLOW.git
 cd TLOW
 uv sync
 ```

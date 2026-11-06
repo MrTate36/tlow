@@ -528,7 +528,7 @@ export function SettingsPage() {
             {!speechBackendAvailable && speechBackendAvailable !== null && (
               <div className="text-xs mt-2 px-1" style={{ color: 'var(--color-text-tertiary)' }}>
                 Set up a speech backend to use voice input.
-                See the <a href="https://tlow-ai.github.io/TLOW/user-guide/tools/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>documentation</a> for details.
+                See the <a href="https://mrtate36.github.io/TLOW/user-guide/tools/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>documentation</a> for details.
               </div>
             )}
           </Section>
@@ -626,7 +626,7 @@ export function SettingsPage() {
                   Project site
                 </a>
                 <a
-                  href="https://tlow-ai.github.io/TLOW/"
+                  href="https://mrtate36.github.io/TLOW/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: 'var(--color-accent)' }}

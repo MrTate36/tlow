@@ -2740,7 +2740,7 @@ def _detect_hardware() -> HardwareInfo:
 def mine() -> None:
     """Pearl PoUW mining commands.
 
-    See https://tlow-ai.github.io/TLOW/user-guide/mining/ for the
+    See https://mrtate36.github.io/TLOW/user-guide/mining/ for the
     full guide.
     """
 

@@ -146,10 +146,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tlow-ai/TLOW"
-Documentation = "https://tlow-ai.github.io/TLOW/"
-Repository = "https://github.com/tlow-ai/TLOW"
-Issues = "https://github.com/tlow-ai/TLOW/issues"
+Homepage = "https://github.com/mrtate36/TLOW"
+Documentation = "https://mrtate36.github.io/TLOW/"
+Repository = "https://github.com/mrtate36/TLOW"
+Issues = "https://github.com/mrtate36/TLOW/issues"
 
 [project.scripts]
 tlow = "tlow.cli:main"

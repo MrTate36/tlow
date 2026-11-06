@@ -3,7 +3,7 @@
 TLOW ships a one-line installer for macOS, Linux, and WSL2.
 
 ```bash
-curl -fsSL https://tlow-ai.github.io/TLOW/install.sh | bash
+curl -fsSL https://mrtate36.github.io/TLOW/install.sh | bash
 ```
 
 The installer downloads everything for you — including [uv](https://docs.astral.sh/uv/)
@@ -14,8 +14,8 @@ model. **You don't need to install uv or any other prerequisite first.**
     This script is served straight from the project's own GitHub Pages site,
     so HTTPS always works. You may also see `https://tlow.ai/install.sh`
     referenced in older docs — that domain is community-operated and has had
-    intermittent TLS issues ([#337](https://github.com/tlow-ai/TLOW/issues/337)).
-    The `tlow-ai.github.io` URL above is the canonical one.
+    intermittent TLS issues ([#337](https://github.com/mrtate36/TLOW/issues/337)).
+    The `mrtate36.github.io` URL above is the canonical one.
 
 About 3 minutes on a typical broadband connection. Type `tlow` to start chatting.
 
@@ -72,7 +72,7 @@ Local-first remains the default when no key is in env. Precedence is OpenRouter 
 | Variable | Default | Purpose |
 |---|---|---|
 | `TLOW_HOME` | `$HOME/.tlow` | Install location. |
-| `TLOW_REPO_URL` | `https://github.com/tlow-ai/TLOW.git` | Source repo for the clone step. |
+| `TLOW_REPO_URL` | `https://github.com/mrtate36/TLOW.git` | Source repo for the clone step. |
 
 ## Uninstall
 
