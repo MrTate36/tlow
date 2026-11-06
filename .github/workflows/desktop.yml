@@ -80,6 +80,25 @@ jobs:
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      # TLOW: a fresh fork has no desktop-latest tag, and GITHUB_TOKEN may not
+      # create one via the Releases API. Create it with git (as autotag.yml
+      # does) so tauri-action can attach the rolling release to it.
+      - name: Ensure desktop-latest tag exists
+        if: "!startsWith(github.ref, 'refs/tags/desktop-v')"
+        run: |
+          if git ls-remote --exit-code --tags origin refs/tags/desktop-latest >/dev/null; then
+            echo "desktop-latest tag already exists"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git tag desktop-latest "$GITHUB_SHA"
+            git push origin desktop-latest
+          fi
+
       - name: Delete old assets from desktop-latest
         if: "!startsWith(github.ref, 'refs/tags/')"
         env:
