@@ -4,12 +4,12 @@ from __future__ import annotations
 
 import pytest
 
+from tests.agents.fake_engine import FakeEngine
+from tests.agents.scenario_harness import FakeSystem, ScenarioHarness
 from tlow.agents.executor import AgentExecutor
 from tlow.agents.manager import AgentManager
 from tlow.agents.scheduler import AgentScheduler
 from tlow.core.events import EventBus
-from tests.agents.fake_engine import FakeEngine
-from tests.agents.scenario_harness import FakeSystem, ScenarioHarness
 
 
 @pytest.fixture

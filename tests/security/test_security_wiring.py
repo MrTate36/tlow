@@ -7,8 +7,8 @@ from unittest.mock import MagicMock
 from tlow.agents._stubs import AgentResult, ToolUsingAgent
 from tlow.core.config import (
     CapabilitiesConfig,
-    TLOWConfig,
     SecurityConfig,
+    TLOWConfig,
 )
 from tlow.core.events import EventBus
 from tlow.security import setup_security

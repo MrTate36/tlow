@@ -6,8 +6,8 @@ from pathlib import Path
 
 from tlow.core.config import (
     HardwareInfo,
-    TLOWConfig,
     LearningConfig,
+    TLOWConfig,
     generate_default_toml,
     load_config,
 )

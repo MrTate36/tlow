@@ -2,11 +2,11 @@
 
 from __future__ import annotations
 
+from tests.agents.fake_engine import FakeEngine
+from tests.agents.scenario_harness import FakeSystem
 from tlow.agents.executor import AgentExecutor
 from tlow.agents.manager import AgentManager
 from tlow.core.events import EventBus
-from tests.agents.fake_engine import FakeEngine
-from tests.agents.scenario_harness import FakeSystem
 
 
 def _register_agent():

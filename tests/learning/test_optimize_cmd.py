@@ -95,7 +95,7 @@ class TestOptimizeConfig:
     """Tests for OptimizeConfig in TLOWConfig."""
 
     def test_optimize_config_in_tlow_config(self):
-        from tlow.core.config import TLOWConfig, OptimizeConfig
+        from tlow.core.config import OptimizeConfig, TLOWConfig
 
         cfg = TLOWConfig()
         assert isinstance(cfg.optimize, OptimizeConfig)

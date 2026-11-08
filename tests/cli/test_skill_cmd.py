@@ -137,7 +137,7 @@ class TestSkillSearchCommand:
         assert result.exit_code == 0
 
     def test_search_no_sources_configured(self) -> None:
-        from tlow.core.config import TLOWConfig, SkillsConfig
+        from tlow.core.config import SkillsConfig, TLOWConfig
 
         cfg = TLOWConfig()
         cfg.skills = SkillsConfig(sources=[])
@@ -150,9 +150,9 @@ class TestSkillSearchCommand:
         from pathlib import Path as _P
 
         from tlow.core.config import (
-            TLOWConfig,
             SkillsConfig,
             SkillSourceConfig,
+            TLOWConfig,
         )
         from tlow.skills.sources.base import ResolvedSkill
 
@@ -220,9 +220,9 @@ class TestSkillSourcesCommand:
         from unittest.mock import patch
 
         from tlow.core.config import (
-            TLOWConfig,
             SkillsConfig,
             SkillSourceConfig,
+            TLOWConfig,
         )
 
         cfg = TLOWConfig()

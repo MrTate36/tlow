@@ -138,6 +138,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # PyO3 (tlow-python) does not support the runner's default Python 3.14 yet.
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
         with:

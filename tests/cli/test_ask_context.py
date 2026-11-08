@@ -35,7 +35,7 @@ def test_get_memory_backend_returns_backend_even_when_empty(
     which is the kind of ambiguity that leads to silent grounding
     failures downstream.
     """
-    from tlow.core.config import TLOWConfig, MemoryConfig
+    from tlow.core.config import MemoryConfig, TLOWConfig
     from tlow.core.registry import MemoryRegistry
     from tlow.tools.storage.sqlite import SQLiteMemory
 
@@ -61,7 +61,7 @@ def test_get_memory_backend_returns_backend_with_docs(
     monkeypatch,
 ):
     """_get_memory_backend returns a backend when docs exist."""
-    from tlow.core.config import TLOWConfig, MemoryConfig
+    from tlow.core.config import MemoryConfig, TLOWConfig
     from tlow.core.registry import MemoryRegistry
     from tlow.tools.storage.sqlite import SQLiteMemory
 

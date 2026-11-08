@@ -12,7 +12,7 @@ from tlow.core.config import TLOWConfig, load_config
 from tlow.core.events import EventBus
 from tlow.core.types import Message, Role
 from tlow.engine._discovery import get_engine
-from tlow.system import TLOWSystem, SystemBuilder
+from tlow.system import SystemBuilder, TLOWSystem
 from tlow.telemetry.instrumented_engine import InstrumentedEngine
 from tlow.telemetry.store import TelemetryStore
 

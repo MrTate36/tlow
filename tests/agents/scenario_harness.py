@@ -5,11 +5,11 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from tests.agents.fake_engine import FakeEngine
 from tlow.agents.executor import AgentExecutor
 from tlow.agents.manager import AgentManager
 from tlow.agents.scheduler import AgentScheduler
 from tlow.core.events import EventBus
-from tests.agents.fake_engine import FakeEngine
 
 
 @dataclass(slots=True)

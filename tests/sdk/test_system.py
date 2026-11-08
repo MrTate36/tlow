@@ -8,7 +8,7 @@ import pytest
 
 from tlow.core.config import TLOWConfig
 from tlow.core.events import EventBus
-from tlow.system import TLOWSystem, SystemBuilder
+from tlow.system import SystemBuilder, TLOWSystem
 
 
 class TestTLOWSystem:
@@ -280,7 +280,7 @@ class TestSystemBuilder:
         assert builder._traces is False
 
     def test_import_works(self):
-        from tlow.system import TLOWSystem, SystemBuilder
+        from tlow.system import SystemBuilder, TLOWSystem
 
         assert TLOWSystem is not None
         assert SystemBuilder is not None

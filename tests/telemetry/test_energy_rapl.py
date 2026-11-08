@@ -7,13 +7,13 @@ from unittest.mock import patch
 
 import pytest
 
-from tlow.telemetry.energy_rapl import (
-    RaplEnergyMonitor,
-    _discover_domains,
-)
 from tests.telemetry.energy_test_helpers import (
     assert_close_sets_uninitialized,
     assert_sample_result_basics,
+)
+from tlow.telemetry.energy_rapl import (
+    RaplEnergyMonitor,
+    _discover_domains,
 )
 
 _PLAT = "tlow.telemetry.energy_rapl.platform.system"

@@ -10,9 +10,9 @@ from unittest.mock import patch
 
 import pytest
 
+from tests.agents.scenario_harness import ScenarioHarness
 from tlow.agents.errors import RetryableError
 from tlow.core.events import EventType
-from tests.agents.scenario_harness import ScenarioHarness
 
 # ---------------------------------------------------------------------------
 # Scenario 1: Manual agent full lifecycle

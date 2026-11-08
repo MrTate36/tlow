@@ -76,10 +76,6 @@ jobs:
           TAG: ${{ steps.version.outputs.tag }}
         run: |
           set -euo pipefail
-          echo "Dispatching pypi-publish.yml @ ${TAG}"
-          gh workflow run pypi-publish.yml \
-            --ref "${TAG}" \
-            -f tag="${TAG}"
           echo "Dispatching desktop.yml @ ${TAG}"
           gh workflow run desktop.yml \
             --ref "${TAG}" \

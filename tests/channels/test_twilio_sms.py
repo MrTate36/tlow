@@ -6,11 +6,11 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
+from tests.channels.channel_test_helpers import make_common_channel_tests
 from tlow.channels._stubs import ChannelStatus
 from tlow.channels.twilio_sms import TwilioSMSChannel
 from tlow.core.events import EventBus, EventType
 from tlow.core.registry import ChannelRegistry
-from tests.channels.channel_test_helpers import make_common_channel_tests
 
 
 @pytest.fixture(autouse=True)

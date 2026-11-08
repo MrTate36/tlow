@@ -1,6 +1,6 @@
 """Tests for speech configuration."""
 
-from tlow.core.config import TLOWConfig, SpeechConfig
+from tlow.core.config import SpeechConfig, TLOWConfig
 
 
 def test_speech_config_defaults():

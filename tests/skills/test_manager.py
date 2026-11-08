@@ -465,9 +465,9 @@ class TestSkillManagerOverlayLoading:
         from unittest.mock import patch
 
         from tlow.core.config import (
-            TLOWConfig,
             LearningConfig,
             SkillsLearningConfig,
+            TLOWConfig,
         )
         from tlow.core.events import EventBus
         from tlow.skills.manager import SkillManager

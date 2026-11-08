@@ -65,9 +65,9 @@ class TestOrchestratorRunSkillTrigger:
 
     def _make_config(self, *, auto_optimize: bool):
         from tlow.core.config import (
-            TLOWConfig,
             LearningConfig,
             SkillsLearningConfig,
+            TLOWConfig,
         )
 
         cfg = TLOWConfig()

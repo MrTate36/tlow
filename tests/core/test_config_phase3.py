@@ -5,8 +5,8 @@ from __future__ import annotations
 from tlow.core.config import (
     AgentConfig,
     HardwareInfo,
-    TLOWConfig,
     ServerConfig,
+    TLOWConfig,
     generate_default_toml,
 )
 

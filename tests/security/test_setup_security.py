@@ -6,7 +6,7 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from tlow.core.config import CapabilitiesConfig, TLOWConfig, SecurityConfig
+from tlow.core.config import CapabilitiesConfig, SecurityConfig, TLOWConfig
 from tlow.core.events import EventBus
 from tlow.security import SecurityContext, setup_security
 
